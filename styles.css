@@ -2,14 +2,50 @@
 
 body{
     font-family: 'Poopins', sans-serif;
-    font-size: ;
+    font-size:15px ;
     font-weight: 400;
-    color: white;
+    /* color: white; */
     margin: 2px;
-    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-);
+    /* background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
+.container{
+    padding: 20px;
+    background-color:darkslateblue;
+    width: 100%;
+    margin: 3rem, auto 0 auto;
+
+}
+
+div form label{
+
+
+}
+button{
+    border: none;
+}
+p{
+    font-size: 15px;
+}
+h1,p{
+    font-weight:400;
+    line-height: 1.5;
+}
+
+label{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 15px;
+}
+
+#text{
+    min-height: 120px;
+    width: 20%;
+    padding: 0.625rem;
+    resize: vertical;
+}
