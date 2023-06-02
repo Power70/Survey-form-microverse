@@ -4,9 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey-Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>survey-form</title>
 </head>
 <body>
+    <div class="container">
+        <header id="title" class="text-center">
+            <h1 id="title">A Survey Form</h1>
     
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+        <label id="name-label">Name</label>
+        <input name="username" required id="name" type="text" placeholder="enter your name">
+         <input id="email" type="email" placeholder="enter your email" required>
+        <label id="email-label">Email</label>
+                <input id="number" max="10" min="8" type="number" placeholder="enter your number">
+        <label id="number-label">Number</label>
+
+
+    
+        <select id="dropdown">
+            <option value="first">
+                what would you like us  to do more
+            </option>
+            <option value="second">age</option>
+        </select>
+
+    <legend>Group 1</legend>
+    <label>
+      <input type="radio" name="group1" value="option1" >
+      Option 1
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="group1" value="option2">
+      Option 2
+    </label>
+    <legend>Group 2</legend>
+    <label>
+      <input type="radio" name="group2" value="option4" >
+      Option 4
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="group2" value="option5">
+      Option 5
+    </label>
+    <br>
+        <input value="1" type="checkbox">
+        available
+        <br>
+        <input value="2" type="checkbox">
+        close
+        <br>
+        <input value="3" type="checkbox">
+        work hours
+        <br>
+        <input value="4" type="checkbox">
+        Doing something
+        
+        <input value="5" type="checkbox">
+        More
+
+        <textarea name="textarea" id="text" cols="30" rows="10"></textarea>
+
+        <div id="button">    <BUtton id="submit" type="submit">submit</BUtton></div>
+
+        
+    </form>
+        </header>
+    </div>
 </body>
 </html>
